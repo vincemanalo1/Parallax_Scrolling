@@ -1,0 +1,111 @@
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 960px)  {
+	h2 {
+		font-size: 1.5rem !important;
+	}
+	h3 {
+		font-size: 1.2rem !important;
+	}
+	p {
+		font-size: .80rem !important;
+	}
+	.std-margin {
+	    margin: 7px 10px;
+	}
+	.std-margin-top {
+	    margin: 7px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 768px)  {
+	h1 {
+		font-size: 2rem !important;
+	}
+	h2 {
+		font-size: 1.2rem !important;
+	}
+	h3, h3.panel-title>a {
+		font-size: 1rem !important;
+	}
+	p {
+		font-size: .70rem !important;
+	}
+	.std-margin {
+	    margin: 4px 10px;
+	}
+	.std-margin-top {
+	    margin: 4px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 600px)  {
+	nav {
+	    background: #1C5068;
+		top: auto;
+		right: auto;
+	    padding: 10px;
+	    width: 100%;
+	    margin: 0 !important;
+	    box-shadow: 0px 2px 18px #fff;
+	}
+	.center-nav {
+		text-align:center;
+		margin:0 auto;
+		width:240px;
+	}
+}
+
+@media screen and (max-width: 480px)  {
+	h1 {
+		font-size: 1.5rem !important;
+	}
+	h2 {
+		font-size: .70rem !important;
+	}
+	h3, h3.panel-title>a {
+		font-size: .60rem !important;
+	}
+	p {
+		font-size: .55rem !important;
+	}
+	.std-margin {
+	    margin: 0px 10px;
+	}
+	.std-margin-top {
+	    margin: 0;
+	}
+	.object-style-2 {
+		width: 10%;
+	}
+}
+
+@media screen and (max-width: 320px)  {
+	h1 {
+		font-size: 1.5rem !important;
+	}
+	h2 {
+		font-size: .60rem !important;
+	}
+	h3, h3.panel-title>a {
+		font-size: .50rem !important;
+	}
+	p {
+		font-size: .45rem !important;
+	}
+	.std-margin {
+	    margin: 0px 10px;
+	}
+	.std-margin-top {
+	    margin: 0;
+	}
+	.object-style-2 {
+		width: 10%;
+	}
+}
+
+

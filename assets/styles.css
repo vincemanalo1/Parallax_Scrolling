@@ -1,0 +1,208 @@
+
+/*
+custom styles
+*/
+
+@font-face {
+    font-family: varela-round;
+    src: url(bootstrap/fonts/VarelaRound-Regular.woff2), /* Super Modern Browsers */
+         url('VarelaRound-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('VarelaRound-Regular.eot'), /* IE9 Compat Modes */
+         url('VarelaRound-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('VarelaRound-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('VarelaRound-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+	font: 1.75em varela-round;
+	/* override other color rules */
+	color: #fff !important;
+	text-shadow: 0px 0px 7px #fff; 
+}
+
+p {
+	font-size: 1rem;
+}
+
+header {
+	padding: 275px 0;
+}
+
+section {
+  padding: 75px 0;
+  overflow: hidden; 
+}
+
+.content-1 {
+	font-size: 1.2rem;
+}
+
+.container-box {
+	background: rgba(9,80,105,.80);
+	border-radius: 5px;
+	/*add glow shadow*/
+    -moz-box-shadow: 0px 0px 40px 20px rgba(9,80,105,.70);
+    -webkit-box-shadow: 0px 0px 40px 20px rgba(9,80,105,.70);
+    box-shadow: 0px 0px 20px 10px rgba(9,80,105,.70);
+    margin: 0 auto;
+}
+
+.std-margin {
+    margin: 15px 10px;
+}
+
+.std-margin-top {
+    margin: 15px 0 0 0;
+}
+
+.object-style {
+	width: 120px;
+	margin-right: 10px;
+}
+
+.object-style-2 {
+	width: 100%;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin :20px;
+	z-index: 1000 !important;
+	display: block;
+}
+
+.nav-item {
+	-moz-box-shadow: 0px 0px 40px 20px rgba(9,80,105,.70);
+    -webkit-box-shadow: 0px 0px 40px 20px rgba(9,80,105,.70);
+    box-shadow: 0px 0px 20px 10px rgba(9,80,105,.70);
+    border-radius: .25rem
+}
+
+a.nav-link.active, a.nav-link:hover {
+	color: #000 !important;
+	font-weight: bold;
+}
+
+a.nav-link {
+	color: #fff !important;
+	text-shadow: 0px 0px 7px #fff; 
+	font-size: 1rem;
+}
+
+.nav-pills a:hover {
+	background: #fff;
+	z-index:1000 !important; 
+}
+
+.nav-pills .nav-link.active {
+	background: #fff;
+	z-index:1000 !important; 
+}
+
+.nav-pills .nav-link {
+	background: rgba(9,80,105,1);
+}
+
+.nav-item:nth-child(1), .nav-item:nth-child(2) {
+	margin-right: 5px;
+}
+
+#solar-system { 
+    /* The image used */
+    background-image: url(images/solar-system.jpg);
+}
+
+#earth { 
+    /* The image used */
+    background-image: url(images/earth.jpg);
+}
+
+#jupiter {
+	background-image: url(images/jupiter.jpg)
+}
+
+#mars {
+	background-image: url(images/mars.jpg)
+}
+
+#solar-system, #earth, #jupiter, #mars
+{
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel {
+	border: 1px solid #fff;
+	margin-bottom: 5px;
+}
+
+.panel-title {
+	background: rgba(9,80,105,1);
+	padding: 5px 0;
+}
+
+.panel-body {
+	margin: 0 10px 0 10px;
+}
+
+#jupiter h3 {
+	font-size:.90rem;
+}
+
+#jupiter .jupiter-p {
+	font-size:.70rem;
+}
+
+h3.panel-title {
+	margin-bottom: 0 !important;
+}
+
+h3.panel-title>a {
+    width: 100%;
+    height: 100%;
+	color: #fff;
+	font-size: 1.2rem;
+    display: block;
+}
+
+h3.panel-title>a:hover {
+	color: #000;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*fade in effect*/
+.fadeIn {
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+-webkit-animation-duration: 5s;
+animation-duration: 5s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+@keyframes fadeIn {
+0% {opacity: 0;}
+100% {opacity: 1;}
+} 
+
