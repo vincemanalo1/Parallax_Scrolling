@@ -1,2 +1,2 @@
-# parallax scrolling witth bootstarp and jquery
+# parallax scrolling with bootstarp and jquery
 my   projects
